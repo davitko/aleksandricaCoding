@@ -34,9 +34,27 @@ namespace InformatikaVezbanje
             Console.WriteLine(" Koje godine je " + player1name + " rodjen/a ? ");
             int bornYearPlayer1 = AleksandraUtils.readInt();
             int yearsPlayer1 = getYears(bornYearPlayer1);
+            Boolean isPlayer1Punoletan = isPunoletan(yearsPlayer1);
+            if (isPlayer1Punoletan)
+            {
+                Console.WriteLine( player1name + " je punoletan. ");
+            }
+            else
+            {
+                Console.WriteLine(player1name + " nije punoletan. ");
+            }
             Console.WriteLine(" Koje godine je  " + player2name + " rodjen/a ?");
             int bornYearPlayer2 = AleksandraUtils.readInt();
             int yearsPlayer2 = getYears(bornYearPlayer2);
+            Boolean isPlayer2Punoletan = isPunoletan(yearsPlayer2);
+            if (isPlayer2Punoletan)
+            {
+                Console.WriteLine(player2name + " je punoletan. ");
+            }
+            else
+            {
+                Console.WriteLine(player2name + " nije punoletan. ");
+            }
 
             if (yearsPlayer1 == yearsPlayer2)
             {
@@ -52,11 +70,20 @@ namespace InformatikaVezbanje
             {
                 int difference = yearsPlayer2 - yearsPlayer1;
                 Console.WriteLine(player2name + " ima vise " + difference + " godina od " + player1name);
-
             }
+        }
 
-
-
+        public static Boolean isPunoletan(int years)
+        {
+            int punoletstvo = 18;
+            if(years >= punoletstvo)
+            {
+                return true;
+            }
+             else
+            {
+                return false;
+            }
         }
     }
 }
