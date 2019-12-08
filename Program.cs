@@ -9,8 +9,9 @@ namespace InformatikaVezbanje
             //BrojGodina.kolikoGodinaImas();
             //ucitajBrojIIspisiGa();
             //ZapreminaBazena.zapreminaBazena();
-             //ObimIPovrsinaKruga.izracunajObimiPovrsinuKruga();
+            //ObimIPovrsinaKruga.izracunajObimiPovrsinuKruga();
             //UnosKorisnika.unosNovogKorisnika();
+            BrojGodina.koJeStariji();
         }
 
         private static void ucitajBrojIIspisiGa()
