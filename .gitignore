@@ -50,3 +50,15 @@ obj/InformatikaVezbanje.csproj.nuget.g.props
 obj/InformatikaVezbanje.csproj.nuget.g.targets
 
 obj/project.assets.json
+
+.vs/InformatikaVezbanje/v16/Server/sqlite3/db.lock
+
+.vs/InformatikaVezbanje/v16/Server/sqlite3/storage.ide
+
+.vs/InformatikaVezbanje/v16/Server/sqlite3/storage.ide-shm
+
+.vs/InformatikaVezbanje/v16/Server/sqlite3/storage.ide-wal
+
+bin/Debug/netcoreapp3.0/InformatikaVezbanje.exe
+
+obj/Debug/netcoreapp3.0/InformatikaVezbanje.exe
