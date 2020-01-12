@@ -1,0 +1,11 @@
+D:\informatika\aleksandricaCoding\bin\Debug\netcoreapp3.0\InformatikaVezbanje.exe
+D:\informatika\aleksandricaCoding\bin\Debug\netcoreapp3.0\InformatikaVezbanje.deps.json
+D:\informatika\aleksandricaCoding\bin\Debug\netcoreapp3.0\InformatikaVezbanje.runtimeconfig.json
+D:\informatika\aleksandricaCoding\bin\Debug\netcoreapp3.0\InformatikaVezbanje.runtimeconfig.dev.json
+D:\informatika\aleksandricaCoding\bin\Debug\netcoreapp3.0\InformatikaVezbanje.dll
+D:\informatika\aleksandricaCoding\bin\Debug\netcoreapp3.0\InformatikaVezbanje.pdb
+D:\informatika\aleksandricaCoding\obj\Debug\netcoreapp3.0\InformatikaVezbanje.csprojAssemblyReference.cache
+D:\informatika\aleksandricaCoding\obj\Debug\netcoreapp3.0\InformatikaVezbanje.AssemblyInfoInputs.cache
+D:\informatika\aleksandricaCoding\obj\Debug\netcoreapp3.0\InformatikaVezbanje.AssemblyInfo.cs
+D:\informatika\aleksandricaCoding\obj\Debug\netcoreapp3.0\InformatikaVezbanje.dll
+D:\informatika\aleksandricaCoding\obj\Debug\netcoreapp3.0\InformatikaVezbanje.pdb

@@ -25,10 +25,27 @@ namespace InformatikaVezbanje
             aleksandrica.brojGodina = Convert.ToInt32(brojGodina);
             aleksandrica.brojPatika = Convert.ToInt32(brojPatika);
             Console.WriteLine(aleksandrica.ToString());
-
-
-
-
+            Boolean isKorisnikPunoletan = isPunoletan(godinaRodjenja);
+            if (isKorisnikPunoletan)
+            {
+                Console.WriteLine(aleksandrica.ime + " je punoletan. ");
+            }
+            else
+            {
+                Console.WriteLine(aleksandrica.ime + " nije punoletan. ");
+            }
+        }
+        public static Boolean isPunoletan(int years)
+        {
+            int punoletstvo = 18;
+            if (years >= punoletstvo)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
