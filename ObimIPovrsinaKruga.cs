@@ -3,7 +3,8 @@
 namespace InformatikaVezbanje
 {
     /**
-     * 2. Napisati na jeziku C# program koji procita poluprecnik kruga s glavnog ulaza racunara i ispiše obim i površinu tog kruga na glavnom izlazu racunara.
+     * 2. Napisati na jeziku C# program koji procita poluprecnik kruga s glavnog
+     * ulaza racunara i ispiše obim i površinu tog kruga na glavnom izlazu racunara.
      *
      * @author: aleksandra.davitkovic@gmail.com
      */
