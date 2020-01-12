@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{B4057918-2DF2-4C2D-8A34-B837C8FC5E42}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="zbir2Broja.cs">
+    <Files>
+      <File FileName="Program.cs" Line="15" Column="17" />
+      <File FileName="Kusur.cs" />
+      <File FileName="ObimIPovrsinaKruga.cs" Line="20" Column="1" />
+      <File FileName="AleksandraUtils.cs" />
+      <File FileName="zbir2Broja.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InformatikaVezbanje" expanded="True">
+            <Node name="InformatikaVezbanje" expanded="True">
+              <Node name="zbir2Broja.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.InformatikaVezbanje PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

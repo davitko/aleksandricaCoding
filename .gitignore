@@ -1,2 +1,14 @@
 
 .vs/InformatikaVezbanje/xs/project-cache/InformatikaVezbanje-Debug.json
+
+*.dll
+
+*.pdb
+
+*.cache
+
+*.props
+
+bin/Debug/netcoreapp3.0/InformatikaVezbanje.runtimeconfig.dev.json
+
+obj/Debug/netcoreapp3.0/InformatikaVezbanje.csproj.FileListAbsolute.txt

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 D:\informatika\aleksandricaCoding\bin\Debug\netcoreapp3.0\InformatikaVezbanje.exe
 D:\informatika\aleksandricaCoding\bin\Debug\netcoreapp3.0\InformatikaVezbanje.deps.json
 D:\informatika\aleksandricaCoding\bin\Debug\netcoreapp3.0\InformatikaVezbanje.runtimeconfig.json
@@ -9,3 +10,16 @@ D:\informatika\aleksandricaCoding\obj\Debug\netcoreapp3.0\InformatikaVezbanje.As
 D:\informatika\aleksandricaCoding\obj\Debug\netcoreapp3.0\InformatikaVezbanje.AssemblyInfo.cs
 D:\informatika\aleksandricaCoding\obj\Debug\netcoreapp3.0\InformatikaVezbanje.dll
 D:\informatika\aleksandricaCoding\obj\Debug\netcoreapp3.0\InformatikaVezbanje.pdb
+=======
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/bin/Debug/netcoreapp3.0/InformatikaVezbanje
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/bin/Debug/netcoreapp3.0/InformatikaVezbanje.deps.json
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/bin/Debug/netcoreapp3.0/InformatikaVezbanje.runtimeconfig.json
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/bin/Debug/netcoreapp3.0/InformatikaVezbanje.runtimeconfig.dev.json
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/bin/Debug/netcoreapp3.0/InformatikaVezbanje.dll
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/bin/Debug/netcoreapp3.0/InformatikaVezbanje.pdb
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/obj/Debug/netcoreapp3.0/InformatikaVezbanje.csprojAssemblyReference.cache
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/obj/Debug/netcoreapp3.0/InformatikaVezbanje.AssemblyInfoInputs.cache
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/obj/Debug/netcoreapp3.0/InformatikaVezbanje.AssemblyInfo.cs
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/obj/Debug/netcoreapp3.0/InformatikaVezbanje.dll
+/Users/d444061/Programming/Aleksandrica/aleksandricaCoding/obj/Debug/netcoreapp3.0/InformatikaVezbanje.pdb
+>>>>>>> Stashed changes
