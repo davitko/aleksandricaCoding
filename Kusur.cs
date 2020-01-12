@@ -21,22 +21,22 @@ namespace InformatikaVezbanje
             Console.WriteLine("Izracunavanje Kusura, pravda za Kasirku!");
             Console.WriteLine("***********************************************");
 
-            Console.WriteLine("Unesite cenu kupljenog proizvoda: ");
+            Console.WriteLine("Unesite cenu kupljenog proizvoda u dinarima: ");
             double cena = AleksandraUtils.readDouble();
 
             Console.WriteLine("Unesite kolicinu kupljenog proizvoda: ");
             double kolicina = AleksandraUtils.readDouble();
 
-            double ukupnaCena = cena * kolicina;
-            Console.WriteLine("Ukupna cena: " + ukupnaCena);
+            double racun = cena * kolicina;
+            Console.WriteLine("Ukupna cena: " + racun + " din.");
 
-            Console.WriteLine("Unesite koliko je novca kupac dao: ");
+            Console.WriteLine("Unesite koliko je novca kupac dao u dinarima: ");
             double datNovac = AleksandraUtils.readDouble();
 
-            if(datNovac > ukupnaCena)
+            if(datNovac > racun)
             {
-                double kusur = ukupnaCena - datNovac;
-                Console.WriteLine("Kusur za vracanje je: " + kusur);
+                double kusur = datNovac - racun;
+                Console.WriteLine("Kusur za vracanje je: " + kusur + " din.");
             }
 
         }

@@ -15,14 +15,14 @@ namespace InformatikaVezbanje
             Console.WriteLine("Izracunavanje Obima i povrsine kruga");
             Console.WriteLine("***********************************************");
 
-            Console.WriteLine("Unesite poluprecnik kruga: ");
+            Console.WriteLine("Unesite poluprecnik kruga u cm: ");
             double r = AleksandraUtils.readDouble();
 
             double obim = getObimKruga(r);
-            Console.WriteLine("Obim kruga je " + obim);
+            Console.WriteLine("Obim kruga je " + obim + " cm.");
 
             double povrsina = getPovrsinaKruga(r);
-            Console.WriteLine("Povrsina kruga je " + povrsina);
+            Console.WriteLine("Povrsina kruga je " + povrsina + " cm2.");
         }
 
         private static double getObimKruga(double r)

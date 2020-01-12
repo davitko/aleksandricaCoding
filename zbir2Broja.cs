@@ -25,7 +25,7 @@ namespace InformatikaVezbanje
 
             int zbir = prviBroj + drugiBroj;
 
-            Console.WriteLine("Zbir uneta 2 broja (" + prviBroj + " " + drugiBroj + ") je: " + zbir);
+            Console.WriteLine("Zbir uneta 2 broja (" + prviBroj + " i " + drugiBroj + ") je: " + zbir);
         }
     }
 }

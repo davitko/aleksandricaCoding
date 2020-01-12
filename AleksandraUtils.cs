@@ -22,7 +22,7 @@ namespace InformatikaVezbanje
             }
             catch (FormatException ex)
             {
-                throw new FormatException("Uneseni broj nije ceo broj (int)! Molimo proverite Vas unos!" + ex);
+                throw new FormatException("Uneti broj nije ceo broj (int)! Molimo proverite Vas unos!" + ex);
             }
         }
 
@@ -37,7 +37,7 @@ namespace InformatikaVezbanje
             }
             catch (FormatException ex)
             {
-                throw new FormatException("Uneseni broj nije broj dvostruke preciznosti (double)! Molimo proverite Vas unos!" + ex);
+                throw new FormatException("Uneti broj nije broj dvostruke preciznosti (double)! Molimo proverite Vas unos!" + ex);
             }
 
         }
