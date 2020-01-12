@@ -11,6 +11,7 @@ namespace InformatikaVezbanje
 	            Unesite cenu, kolicinu i iznos: 132 2 500
 	            Kusur je 236 dinara.
 
+
          @author: aleksandra.davitkovic@gmail.com
     */
 

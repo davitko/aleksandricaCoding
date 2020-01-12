@@ -12,3 +12,19 @@
 bin/Debug/netcoreapp3.0/InformatikaVezbanje.runtimeconfig.dev.json
 
 obj/Debug/netcoreapp3.0/InformatikaVezbanje.csproj.FileListAbsolute.txt
+
+*.ide
+
+*.ide-shm
+
+*.ide-wal
+
+bin/Debug/netcoreapp3.0/
+
+obj/Debug/netcoreapp3.0/
+
+obj/
+
+.vs/InformatikaVezbanje/xs/
+
+*.cs~
