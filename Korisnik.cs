@@ -6,10 +6,10 @@ namespace InformatikaVezbanje
     {
         public String ime;
         public String prezime;
-        public Int16 visina;
+        private Int32 visina;
         public Int32 brojGodina;
         public Int32 brojPatika;
 
-        
+        public int Visina { get => visina; set => visina = value; }
     }
 }

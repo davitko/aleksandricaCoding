@@ -6,12 +6,13 @@ namespace InformatikaVezbanje
     {
          static void Main(string[] args)
         {
-            //BrojGodina.kolikoGodinaImas();
+            BrojGodina.kolikoGodinaImas();
             //ucitajBrojIIspisiGa();
             //ZapreminaBazena.zapreminaBazena();
             //ObimIPovrsinaKruga.izracunajObimiPovrsinuKruga();
             //UnosKorisnika.unosNovogKorisnika();
-            BrojGodina.koJeStariji();
+            //BrojGodina.koJeStariji();
+            zbir2Broja.izracunavanjeZbira();
         }
 
         private static void ucitajBrojIIspisiGa()
