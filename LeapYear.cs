@@ -4,10 +4,10 @@ namespace InformatikaVezbanje
     /**
      * Klassa Racuna Presputne godine
      *
+     * @author aleksandra.davitkovic@gmail.com
      */
     public static class LeapYear
     {
-
         public static void printLeapYears()
         {
             Console.WriteLine("Funkcija proverava da li je uneta godina prestupna ili nije.");
@@ -45,8 +45,6 @@ namespace InformatikaVezbanje
                 5.The year is not a leap year (it has 365 days).
             */
 
-      
-
             // 1.
             if (year % 4 == 0)
             {
@@ -69,8 +67,6 @@ namespace InformatikaVezbanje
             {
                 return false;
             }
-
-       
         }
     }
 }
