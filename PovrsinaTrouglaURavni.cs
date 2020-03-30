@@ -9,19 +9,19 @@ namespace InformatikaVezbanje
             Console.WriteLine("***********************************************");
 
             Console.WriteLine("Unesite kordinate prve tacke po X osi:");
-            double aX = AleksandraUtils.readDouble();
+            double aX = InputUtils.readDouble();
             Console.WriteLine("Unesite kordinate prve tacke po Y osi:");
-            double aY = AleksandraUtils.readDouble();
+            double aY = InputUtils.readDouble();
 
             Console.WriteLine("Unesite kordinate druge tacke po X osi:");
-            double bX = AleksandraUtils.readDouble();
+            double bX = InputUtils.readDouble();
             Console.WriteLine("Unesite kordinate druge tacke po Y osi:");
-            double bY = AleksandraUtils.readDouble();
+            double bY = InputUtils.readDouble();
 
             Console.WriteLine("Unesite kordinate treca tacke po X osi:");
-            double cX = AleksandraUtils.readDouble();
+            double cX = InputUtils.readDouble();
             Console.WriteLine("Unesite kordinate treca tacke po Y osi:");
-            double cY = AleksandraUtils.readDouble();
+            double cY = InputUtils.readDouble();
 
           
 

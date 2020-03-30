@@ -9,7 +9,7 @@ namespace InformatikaVezbanje
             String upisiBrojPoruka = Pozdrav + "Upisi broj.";
             Console.WriteLine(upisiBrojPoruka);
 
-            int broj = AleksandraUtils.readInt();
+            int broj = InputUtils.readInt();
             String poruka = "Unet broj je ";
             Console.WriteLine(poruka + broj);
             if (broj > 20)

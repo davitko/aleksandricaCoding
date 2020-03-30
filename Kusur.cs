@@ -23,16 +23,16 @@ namespace InformatikaVezbanje
             Console.WriteLine("***********************************************");
 
             Console.WriteLine("Unesite cenu kupljenog proizvoda u dinarima: ");
-            double cena = AleksandraUtils.readDouble();
+            double cena = InputUtils.readDouble();
 
             Console.WriteLine("Unesite kolicinu kupljenog proizvoda: ");
-            double kolicina = AleksandraUtils.readDouble();
+            double kolicina = InputUtils.readDouble();
 
             double racun = cena * kolicina;
             Console.WriteLine("Ukupna cena: " + racun + " din.");
 
             Console.WriteLine("Unesite koliko je novca kupac dao u dinarima: ");
-            double datNovac = AleksandraUtils.readDouble();
+            double datNovac = InputUtils.readDouble();
 
             if(datNovac > racun)
             {

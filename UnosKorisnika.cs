@@ -14,10 +14,10 @@ namespace InformatikaVezbanje
             Console.WriteLine(" Molimo unesite Vase prezime.");
             String prezime = Console.ReadLine();
             Console.WriteLine(" Molimo unesite Vasu godinu rodjenja.");
-            int godinaRodjenja = AleksandraUtils.readInt();
+            int godinaRodjenja = InputUtils.readInt();
             int brojGodina = BrojGodina.getYears(godinaRodjenja);
             Console.WriteLine(" Molimo unesite Vas broj patika.");
-            int brojPatika = AleksandraUtils.readInt();
+            int brojPatika = InputUtils.readInt();
 
             Korisnik aleksandrica = new Korisnik();
             aleksandrica.ime = ime;

@@ -9,11 +9,11 @@ namespace InformatikaVezbanje
         public static void zapreminaBazena()
         {
             Console.WriteLine("Upisi duzinu bazena ");
-            int duzina = AleksandraUtils.readInt();
+            int duzina = InputUtils.readInt();
             Console.WriteLine("Upisi sirinu bazena ");
-            int sirina = AleksandraUtils.readInt();
+            int sirina = InputUtils.readInt();
             Console.WriteLine("Upisi dubinu bazena ");
-            int dubina = AleksandraUtils.readInt();
+            int dubina = InputUtils.readInt();
             Double zapremina = duzina * sirina * dubina;
             Console.WriteLine("Zapremina bazena je " + zapremina);
         }

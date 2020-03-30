@@ -13,7 +13,7 @@ namespace InformatikaVezbanje
 
             Console.WriteLine("Unesite cetvorocifreni broj");
 
-            int broj = AleksandraUtils.readInt();   // 4568
+            int broj = InputUtils.readInt();   // 4568
 
             int cifra1 = broj / 1000;       // 4,568 -> 4
             // int cifra2 = (broj / 100) % 10; // 45,68 -> 45 -> 5

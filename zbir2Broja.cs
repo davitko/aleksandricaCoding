@@ -18,10 +18,10 @@ namespace InformatikaVezbanje
             Console.WriteLine("***********************************************");
 
             Console.WriteLine("Molimo unesite prvi broj:");
-            int prviBroj = AleksandraUtils.readInt();
+            int prviBroj = InputUtils.readInt();
 
             Console.WriteLine("Molimo unesite prvi broj:");
-            int drugiBroj = AleksandraUtils.readInt();
+            int drugiBroj = InputUtils.readInt();
 
             int zbir = prviBroj + drugiBroj;
 

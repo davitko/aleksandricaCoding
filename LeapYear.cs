@@ -5,17 +5,26 @@ namespace InformatikaVezbanje
      * Klassa Racuna Presputne godine
      *
      * @author aleksandra.davitkovic@gmail.com
+     * @date 29.03.2020
      */
     public static class LeapYear
     {
+        /**
+         *  Funkcija koja stampa na ekranu poruku, u zavisnosti od toga
+         *  da li je uneta godina prestupna ili nije.
+         *
+         */
         public static void printLeapYears()
         {
             Console.WriteLine("Funkcija proverava da li je uneta godina prestupna ili nije.");
             Console.WriteLine("Unesite molim Vas godinu za proveru, bez tacke, samo broj.");
 
-            int year = AleksandraUtils.readInt();
+            int year = InputUtils.readInt();
 
+            // Nacin 1, preko DateTime Utils klase
             //bool isLeapYear = DateTime.IsLeapYear(year);
+
+            // Nacin 2, preko moje funkcije
             bool isLeapYear = IsLeapYear(year);
 
             if (isLeapYear)
@@ -32,6 +41,8 @@ namespace InformatikaVezbanje
          * Funkcija vraca true ili false, u zavisnosti od toga
          * da li je godina prestupna ili ne.
          *
+         * 
+         * @param integer vrednost godine za proveru
          * @return boolean vrednost, u zavisnosti od toga
          * da li je godina prestupna ili ne.
          */

@@ -3,14 +3,21 @@
 namespace InformatikaVezbanje
 {
     /**
+     * InputUtils je klasa koja obezbedjuje elementarne funkcije za unos podataka
+     * u sistem kroz konzolu.
      *
      *
-     *
-     *  @author: aleksandra.davitkovic@gmail.com
+     *  @author aleksandra.davitkovic@gmail.com
+     *  @date 29.03.2020
      */
 
-    class AleksandraUtils
+    class InputUtils
     {
+        /**
+         * Ucitavanje integer vrednosti sa konzole.
+         *
+         * @throws FormatException ukoliko uneti broj nije integer.
+         */
         public static int readInt()
         {
             String input = Console.ReadLine();
@@ -26,6 +33,11 @@ namespace InformatikaVezbanje
             }
         }
 
+        /**
+         * Ucitavanje double vrednosti sa konzole.
+         *
+         * @throws FormatException ukoliko uneti broj nije double.
+         */
         public static double readDouble()
         {
             String input = Console.ReadLine();

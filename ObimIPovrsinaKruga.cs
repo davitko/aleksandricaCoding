@@ -16,7 +16,7 @@ namespace InformatikaVezbanje
             Console.WriteLine("***********************************************");
 
             Console.WriteLine("Unesite poluprecnik kruga u cm: ");
-            double r = AleksandraUtils.readDouble();
+            double r = InputUtils.readDouble();
 
             double obim = getObimKruga(r);
             Console.WriteLine("Obim kruga je " + obim + " cm.");

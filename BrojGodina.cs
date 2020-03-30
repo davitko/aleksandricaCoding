@@ -10,7 +10,7 @@ namespace InformatikaVezbanje
             String bornYearQuestion = buckastiPozdrav + "Koje godine si rodjen?";
             Console.WriteLine(bornYearQuestion);
 
-            int bornYear = AleksandraUtils.readInt();
+            int bornYear = InputUtils.readInt();
             int years = getYears(bornYear);
             Console.WriteLine("Broj godina je " + years);
         }
@@ -30,7 +30,7 @@ namespace InformatikaVezbanje
             Console.WriteLine(" Ime igraca 2 ? ");
             string player2name = Console.ReadLine();
             Console.WriteLine(" Koje godine je " + player1name + " rodjen/a ? ");
-            int bornYearPlayer1 = AleksandraUtils.readInt();
+            int bornYearPlayer1 = InputUtils.readInt();
             int yearsPlayer1 = getYears(bornYearPlayer1);
             Boolean isPlayer1Punoletan = isPunoletan(yearsPlayer1);
             if (isPlayer1Punoletan)
@@ -42,7 +42,7 @@ namespace InformatikaVezbanje
                 Console.WriteLine(player1name + " nije punoletan. ");
             }
             Console.WriteLine(" Koje godine je  " + player2name + " rodjen/a ?");
-            int bornYearPlayer2 = AleksandraUtils.readInt();
+            int bornYearPlayer2 = InputUtils.readInt();
             int yearsPlayer2 = getYears(bornYearPlayer2);
             Boolean isPlayer2Punoletan = isPunoletan(yearsPlayer2);
             if (isPlayer2Punoletan)
